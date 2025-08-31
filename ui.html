@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li{
+            list-style: none;
+            /* display: inline-block; */
+            font-size: 20px;
+            margin-right: 50px;
+            color: aliceblue;
+        
+        }
+        ul{
+            background-color: orangered;
+            position: absolute;
+            
+            border-radius: 0px 10px;
+            width: 100%;    
+            justify-content: center;
+            display: flex;
+        }
+        #box{
+            height: 100vh;
+            background-image: conic-gradient(red,green,blue,cyan,yellow);
+            /* background-image: radial-gradient(red,green,blue,cyan,yellow); */
+            /* background-image: linear-gradient(to left top,red,green,blue,cyan,yellow); */
+        }
+        body{
+            margin: 0px;
+        }
+        img{
+            height: 100px;
+            position: absolute;
+            left: 60px;
+            top: 20px;
+        }
+        li:hover
+        {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <ul>
+            <li id="active">Home</li>
+            <li>About</li>
+            <li>Gallery</li>
+            <li>Contact</li>
+            <li>Login</li>
+        </ul>
+        <img src="mdu.png" alt="">
+    </div>
+</body>
+</html>

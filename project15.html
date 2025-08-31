@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: black;
+    }
+    #sec,#third{
+        height: 270px;
+        width: 10%;
+    }
+    #first{
+        width: 10%;
+        height: 270px;
+    }
+    #third{
+        position: absolute;
+        right: 50px;
+        top: 100px;
+
+    }
+    #sec{
+        position: absolute;
+        right: 280px;
+        top: 100px;
+
+    }
+    #first{
+        position: absolute;
+        right: 500px;
+        top: 100px;
+
+    }
+    h1{
+        color: skyblue;
+        font-size: 90px;
+        position: absolute;
+        top: 110px;
+        left: 200px;
+        font-family: cursive;
+        text-shadow: 0px 5px 2px  lightpink;
+        /* animation: head 10s ; */
+    }
+    p{
+        color: darkorange;
+        position: absolute;
+        top: 500px;
+        left: 200px;
+        font-family: cursive;
+        font-size: 30px;
+        animation: anim 10s infinite;
+    }
+    @keyframes anim {
+        25%{
+            color: burlywood;
+        }
+        50%{
+            color:aqua;
+        }
+        75%{
+            color:darkseagreen;
+           }
+        100%{
+            color:darkolivegreen;
+        }        
+    }
+    #first,#sec,#third{
+        box-shadow: 0px 8px 18px lightseagreen;
+    }
+    @keyframes head{
+        25%{
+            transform: rotate(120deg);
+        }
+        50%{
+            transform: rotate(-120deg);
+        }
+        75%{
+            transform: rotate(120deg);
+           }
+        100%{
+            transform: rotate(-120deg);
+        }
+    }
+</style>
+<body>
+    <img id="first"src="download15.jpg" alt="">
+    <img id="sec"src="download16.jpg" alt="">
+    <img id ="third"src="download17.jpg" alt="">
+    <h1>Sunset...</h1>
+    <p>To vividly describe a sunset, use words that evoke the colors, light, and atmosphere, such as "golden," "fiery," "vibrant..</p>
+</body>
+</html>
